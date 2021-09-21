@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 SCRIPT_DIR=$(cd $(dirname $0); pwd -P)
-CHART_DIR=$(cd "${SCRIPT_DIR}/../chart")
+CHART_DIR=$(cd "${SCRIPT_DIR}/../chart"; pwd -P)
 
 NAMESPACE="$1"
 
